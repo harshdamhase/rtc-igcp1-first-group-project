@@ -85,9 +85,10 @@
     align-items: center;
     /* background: linear-gradient(to right, #683903db, #f8b688); */
     background-color: #a65b06;
-    width: 18vw;
+    width: 15vw;
     gap: 25px;
     height: 100%;
+    padding-bottom: 110px;
     
 
 }
@@ -109,12 +110,14 @@
 
 .container-1 {
     display: flex;
-    /* justify-content: space-between; */
-    /* position: fixed; */
     margin-top: 68px;
+    height: 100vh;
+    margin-bottom: 110px;
+  
+    /* position: fixed; */
     /* top: 12.2%; */
-    height: 88vh;
     /* overflow-y: hidden; */
+
 
 }
 
@@ -131,7 +134,6 @@
 .sidebar .side-menus:hover {
     border-bottom: 7px solid #f7c995;
     transition: all .3s ease-in-out;
-    box-shadow: 7px 2px 2px -1px #f3cfa6;
 
 }
 
@@ -157,12 +159,13 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+   
 }
 
 .col-h1 {
     font-size: 26px;
     font-weight: 700;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 
 .col-head .col-desc {
@@ -170,7 +173,7 @@
 }
 
 .col-images {
-    background-image: linear-gradient(rgba(173, 171, 171, 0.2), rgba(82, 81, 81, 0.4)), url(./../img/living-rooms-2.jpg);
+    background-image: linear-gradient(rgba(204, 204, 204, 0.2), rgba(153, 153, 153, 0.4)), url(./../img/living-rooms-2.jpg);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -193,20 +196,20 @@
 @keyframes slider {
 
     0% {
-        background-image: linear-gradient(rgba(131, 131, 131, 0.2), rgba(24, 24, 24, 0.4)), url(./../img/living-rooms-2.jpg);
+        background-image: linear-gradient(rgba(204, 204, 204, 0.2), rgba(153, 153, 153, 0.4)), url(./../img/living-rooms-2.jpg);
     }
 
     25% {
-        background-image: linear-gradient(rgba(131, 131, 131, 0.2), rgba(24, 24, 24, 0.4)), url(./../img/dining-room-2.webp);
+        background-image: linear-gradient(rgba(204, 204, 204, 0.2), rgba(153, 153, 153, 0.4)), url(./../img/dining-room-2.webp);
     }
 
     50% {
-        background-image: linear-gradient(rgba(131, 131, 131, 0.2), rgba(24, 24, 24, 0.4)), url(./../img/collage-beds-1.jpg);
+        background-image: linear-gradient(rgba(204, 204, 204, 0.2), rgba(153, 153, 153, 0.4)), url(./../img/collage-beds-1.jpg);
     }
 
 
     75% {
-        background-image: linear-gradient(rgba(131, 131, 131, 0.2), rgba(24, 24, 24, 0.4)), url(./../img/collage-kitchen-2.webp);
+        background-image: linear-gradient(rgba(204, 204, 204, 0.2), rgba(153, 153, 153, 0.4)), url(./../img/collage-kitchen-2.webp);
     }
 
 
@@ -241,10 +244,10 @@
 
 
 .footer {
-    /* background-color: #e8e8e8; */
-    padding-top: 20px;
-    margin-top: 60px;
+    padding-top: 60px;
+    /* margin-top: 60px; */
     margin-bottom: 0;
+    border-top: 5px solid #c46c07;
     
 }
 
@@ -324,7 +327,6 @@
 
 
 .navbar-2 {
-   
 
     display: none;
     justify-content: space-around;
