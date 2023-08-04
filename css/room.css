@@ -328,3 +328,13 @@
 
     
 }
+
+.explore-btn{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #a65b06;
+}
+.explore-btn:hover{
+    text-decoration: underline;
+    color: #eea858;
+}
